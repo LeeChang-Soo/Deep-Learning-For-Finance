@@ -11,7 +11,7 @@ os.chdir('/Users/sunjiaxuan/Downloads/quantquote_daily_sp500_83986/daily')
 AllFiles = glob.glob("/Users/sunjiaxuan/Downloads/quantquote_daily_sp500_83986/daily/*.csv")
 
 #首先读入所有历史数据，然后计算其daily和monthly的return
-#然后得到y，再进行预测，训练各种区分方法。
+#然后得到y，再进行预测，训练各种区分方
 len(AllFiles)
 FileNames = []
 FileResult =[]
